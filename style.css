@@ -1,0 +1,290 @@
+:root {
+  --roboto: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--roboto);
+  margin-bottom: 10px;
+  position: relative;
+  color: #000;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+header {
+  height: 102px;
+}
+
+header .row {
+  background-color: #f72210;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 20px 10px 15px;
+}
+
+header .col {
+  padding: 0;
+}
+
+.site-date span {
+  font-family: var(--roboto);
+  font-size: 16px;
+  color: #fff;
+}
+
+.sign-container a:first-child {
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.sign-container .btn-sub {
+  background-color: #fff;
+  color: #f72210;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+nav .nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 160px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom-color: #f4f5f6;
+}
+
+nav .nav .nav-item:first-child {
+  border-left-color: #d9d9d9;
+  border-left-width: 0;
+}
+
+nav .nav .nav-item {
+  border-left-color: #d9d9d9;
+  border-left-width: 1px;
+  border-left-style: solid;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-item .nav-link {
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: var(--roboto);
+  color: #000;
+}
+
+.site-content {
+  margin: 15px 30px;
+}
+
+
+
+#featured-story h2,
+#top-story h2,
+#opinions h2 {
+  color: rgba(3, 3, 3, .4);
+  font-family: var(--roboto);
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 11px;
+  text-transform: uppercase;
+}
+
+.card {
+  padding-bottom: 20px;
+}
+
+.card,
+#opinions li,
+.more-stories li {
+  border: none;
+  border-radius: 0;
+}
+
+.card-img-container {
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.card-category {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  font-family: var(--roboto);
+  font-weight: 700;
+  font-size: 17px;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, .9);
+  z-index: 1;
+}
+
+.card-body {
+  margin: 0;
+  padding: 0;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card-title a:link {
+  color: #000;
+  text-decoration-color: #f72210;
+}
+
+.card-text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  margin: 0;
+}
+
+.card-related {
+  margin-top: 16px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 0;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.card-related a {
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: var(--roboto);
+  color: #000;
+  line-height: 20px;
+}
+
+.card-related a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+#opinions {
+  font-family: var(--roboto);
+}
+
+#opinions li:first-child {
+  border: none;
+  padding-top: 0;
+}
+
+.more-stories li,
+#opinions li {
+  margin-bottom: 0;
+  border-top: 1px solid #d9d9d9;
+  padding: 14px 0;
+}
+
+#opinions li:last-child {
+  padding-bottom: 30px;
+}
+
+#opinions img {
+  height: 63px;
+  margin-right: 12px;
+}
+
+#opinions .op-info {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#opinions .byline {
+  margin-top: 4px;
+}
+
+#opinions .byline,
+#opinions .byline a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+}
+
+#opinions .latest-news img {
+  width: 135px;
+  height: 90px;
+  margin-right: 15px;
+}
+
+#opinions .latest-news a {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.more-stories img {
+  width: 135px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.more-stories a {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.more-stories a:link {
+  color: #000;
+  text-decoration-color: #f72210;
+}
+
+.more-stories .summary {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .card-related {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .more-stories a {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+}
