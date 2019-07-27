@@ -288,3 +288,63 @@ nav .nav .nav-item {
     font-weight: 700;
   }
 }
+
+.newsletter-box {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 25px 20px 20px;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.inner-box .n-logo {
+  width: 29px;
+  height: 29px !important ;
+  margin-right: 10px !important;
+}
+
+.inner-box span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: #333;
+  vertical-align: top;
+}
+
+.signbtn {
+  background-color: #666;
+  border-radius: 0;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 10px 10px 12px;
+  margin-bottom: 5px;
+}
+
+.signbtn::after {
+  content: ">";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+}
+
+.updatepref {
+  color: #000;
+  font-size: 15px;
+}
+
+.updatepref:hover{
+  text-decoration: none;
+  color: #000;
+}
