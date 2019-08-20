@@ -326,6 +326,11 @@ body {
   padding-bottom: 10px;
 }
 
+.sub-section-picks li img {
+  width: 135px;
+  padding: 0;
+}
+
 .sub-info {
   font: bold 17px "Roboto Condensed",sans-serif;
   flex: 1;
@@ -334,6 +339,56 @@ body {
 .sub-info span:hover {
   color: #F72210;
   cursor: pointer;
+}
+
+.sb-title {
+  color: #f72210;
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  padding-bottom: 11px;
+}
+
+.subs-block {
+  padding: 30px;
+  background-color: #f4f5f6;
+}
+
+.subs-image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.subs-image .mag-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.subs-image .mag-thumb.current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.subs-info h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: bold;
+}
+
+.subs-info p {
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 15px/21px;
+}
+
+.subs-info a {
+  background-color: #f72210;
+  display: inline-block;
+  padding: 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
 }
 
 /* Extra small devices (portrait phones, less than 764px) */
@@ -355,6 +410,10 @@ body {
 
   #culture-item {
     height: auto;
+  }
+
+  .sub-section-picks li img {
+    width: 258px;
   }
   
 }
