@@ -267,7 +267,8 @@ body {
 
 #fr-right h5:hover, 
 #second-row h5:hover,
-#nw-editors-pick h5:hover {
+#nw-editors-pick h5:hover,
+#section-picks article h5:hover {
   text-decoration: underline;
   text-decoration-color: #F72210;
   cursor: pointer;
@@ -308,6 +309,31 @@ body {
   color: #f72210;
   font: bold 16px/16px "Roboto Condensed",sans-serif;
   line-height: 22px;
+}
+
+.sub-section-picks ul {
+  list-style-type: none;
+}
+
+.sub-section-picks li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.sub-section-picks li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sub-info {
+  font: bold 17px "Roboto Condensed",sans-serif;
+  flex: 1;
+}
+
+.sub-info span:hover {
+  color: #F72210;
+  cursor: pointer;
 }
 
 /* Extra small devices (portrait phones, less than 764px) */
