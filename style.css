@@ -208,6 +208,53 @@ body {
   background-color: #f72210;
 }
 
+#fr-right img {
+  background-color: #F72210;
+}
+
+#fr-right .mag-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+}
+
+#fr-right .image-wrap {
+  display: block;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+#fr-right .mag-cat {
+  padding: 4px 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  font: bold 16px "Roboto Condensed",sans-serif;
+}
+
+#fr-right .cat {
+  font: bold 16px "Roboto Condensed",sans-serif;
+  color: #F72210;
+}
+
+#fr-right .fr-image {
+  transform: translate(-50%,0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  max-width: inherit;
+}
+
+#fr-right h5 {
+  font: bold 20px "Roboto Condensed",sans-serif;
+  line-height: 20px;
+  position: relative;
+  color: black;
+}
+
 /* Extra small devices (portrait phones, less than 764px) */
 @media (max-width: 764px) {
 
@@ -231,6 +278,7 @@ body {
   
 }
 
+/* 768px and up */
 @media screen and (min-width: 768px) {
   body {
       font-size: 15px;
@@ -240,6 +288,11 @@ body {
   #top-story, #featured-story {
     height: 1800px;
   }
+
+  #fr-right .mag-title {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
 }
 
 @media (min-width: 992px) { 
