@@ -284,6 +284,32 @@ body {
   height: 28px;
 }
 
+#featured-slideshows .count-link {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  top: auto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+#featured-slideshows .card-body h5, 
+.block-title span {
+  font-size: 22px;
+}
+
+#section-picks .block-title {
+  color: #f72210;
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  line-height: 22px;
+}
+
 /* Extra small devices (portrait phones, less than 764px) */
 @media (max-width: 764px) {
 
