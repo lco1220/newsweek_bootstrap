@@ -347,15 +347,22 @@ body {
   padding-bottom: 11px;
 }
 
+#subnews-block .col-lg-8, 
+#subnews-block .col-lg-4 {
+  margin-bottom: 40px;
+}
+
 .subs-block {
   padding: 30px;
   background-color: #f4f5f6;
+  flex: 1;
 }
 
 .subs-image {
   position: relative;
   padding-bottom: 13px;
   padding-right: 90px;
+  flex: none;
 }
 
 .subs-image .mag-thumb {
@@ -377,10 +384,10 @@ body {
   font-weight: bold;
 }
 
-.subs-info p {
+.subs-info p, .nletter-info p {
   margin-bottom: 25px;
   font-weight: 300;
-  font-size: 15px/21px;
+  font-size: 16px;
 }
 
 .subs-info a {
@@ -391,9 +398,57 @@ body {
   font: bold 18px/18px "Roboto Condensed",sans-serif;
 }
 
+.nletter-block {
+  width: 100%;
+  flex: 1;
+}
+
+.nletter-block .nletter-image {
+  max-width: 191px;
+  width: 150%;
+}
+
+.nletter-info {
+  border: 1px solid #ebebeb;
+  padding: 30px;
+}
+
+.nletter-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+  color: #333;
+}
+
+.nletter-info a {
+  padding: 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  background-color: #f72210;
+}
+
 /* Extra small devices (portrait phones, less than 764px) */
 @media (max-width: 764px) {
+  .subs-image {
+    margin-bottom: 15px;
+    display: inline-block;
+  }
 
+  .subs-info h3 {
+    font-size: 20px;
+  }
+
+  .subs-info, 
+  .nletter-info {
+    text-align: center;
+  }
+
+  .nletter-block .nletter-image {
+    height: 160px;
+    width: 100%;
+    max-width: 100%;
+  }
   
 }
 
@@ -451,6 +506,10 @@ body {
 @media (min-width: 1000px) {
   #top-story, #featured-story, #opinion {
     height: 1670px;
+  }
+
+  .nletter-block {
+    height: 301px;
   }
 }
 
